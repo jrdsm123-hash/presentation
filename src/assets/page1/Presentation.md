@@ -1,8 +1,5 @@
 ## Svelte Presentation
-
-React is one of many frameworks which could be used for web app development, here is a brief introduction to an alternative which is popular with developers.
-
-Most of the information here is drawn from the [Svelte Website](https://svelte.dev/) and if this taster is appealing you should follow up by going through the full tutorial sequence on that site.
+Huawei Cloud is a leading global cloud service provider launched by Huawei. Founded in March 2017, it leverages Huawei's more than 30 years of technological accumulation and global footprint to provide enterprises and developers with full-stack cloud services and industry solutions.
 
 ![Slide1](/presentation/src/assets/page1/images/Slide1.PNG)
 
