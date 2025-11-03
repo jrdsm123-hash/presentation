@@ -1,8 +1,8 @@
-## Svelte Tutorial
+##  How to use Huaweicloud 
 
 ### Setup
 
-The object here is to demonstrate that Svelte can be used as an effective alternative to React to display the list of users from the typicode API.  You can be the judge of whether the syntax is more or less comfortable to work with.  If you want to go further you can extend to read from other typicode API content.
+The following is the Huawei Cloud server setup process and subsequent usage.
 
 To start off I will make a new github repository named SvelteTS23 and clone this to my local machine.
 
