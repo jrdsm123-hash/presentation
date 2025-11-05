@@ -7,15 +7,15 @@ The following is the Huawei Cloud server setup process and subsequent usage.
 
 First, go to the Huawei Cloud official website, choose Elastic Cloud Server (ECS).
 
-![container type](src\assets\page2\images\home.png)
+![home](src\assets\page2\images\home.png)
 
 The second step is to start setting up the server.Since it was required for the course, we chose the cheaper usage plan.
 
-![bullseye](src\assets\page2\images\configure.png)
+![configure](src\assets\page2\images\configure.png)
 
 And select CentOSf for this experiment
 
-![no options](src\assets\page2\images\CentOS.png)
+![CentOS](src\assets\page2\images\CentOS.png)
 Next, configure the network.Use Huawei Cloud's default IP address
 ![IP](src\assets\page2\images\IP.png)
 The server name uses its default eCS-E996.Then set a password.
