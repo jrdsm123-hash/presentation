@@ -4,134 +4,19 @@
 
 The following is the Huawei Cloud server setup process and subsequent usage.
 
-To start off I will make a new github repository named SvelteTS23 and clone this to my local machine.
 
-Within visual studio code open this folder in a container which is for node and typescript.
+First, go to the Huawei Cloud official website, choose Elastic Cloud Server (ECS).
 
 ![container type](/presentation/src/assets/page2/images/containerType.png)
 
-Choose the recent version of node.
+The second step is to start setting up the server.Since it was required for the course, we chose the cheaper usage plan.
 
 ![bullseye](/presentation/src/assets/page2/images/bullseye.png)
 
-Choose no additional options.
+And select CentOSf for this experiment
 
 ![no options](/presentation/src/assets/page2/images/noOptions.png)
-
-Allow time for the DevContainer to start, then check the node version.
-
-> node --version
-
-```code
-v20.3.1
-```
-
-Now create a svelte app using the latest version.
-
-> npm create svelte@latest my-app
-
-```code
-Need to install the following packages:
-  create-svelte@5.1.1
-Ok to proceed? (y) 
-```
-
-Yes to proceed (y).
-
-Select a skeleton project rather than a demo file or library project.
-
-```code
-create-svelte version 5.1.1
-
-┌  Welcome to SvelteKit!
-│
-◆  Which Svelte app template?
-│  ○ SvelteKit demo app
-│  ● Skeleton project (Barebones scaffolding for your new SvelteKit app)
-│  ○ Library project
-└
-```
-
-Use Typescript
-
-```code
- Welcome to SvelteKit!
-│
-◇  Which Svelte app template?
-│  Skeleton project
-│
-◆  Add type checking with TypeScript?
-│  ○ Yes, using JavaScript with JSDoc comments
-│  ● Yes, using TypeScript syntax
-│  ○ No
-```
-
-Add prettier code formatting.
-
-```code
-Select additional options (use arrow keys/space bar)
-│  ◻ Add ESLint for code linting
-│  ◼ Add Prettier for code formatting
-│  ◻ Add Playwright for browser testing
-│  ◻ Add Vitest for unit testing
-```
-
-Code is ready!
-
-```code
-  Your project is ready!
-
-✔ Typescript
-  Inside Svelte components, use <script lang="ts">
-
-✔ Prettier
-  https://prettier.io/docs/en/options.html
-  https://github.com/sveltejs/prettier-plugin-svelte#options
-
-Install community-maintained integrations:
-  https://github.com/svelte-add/svelte-add
-
-Next steps:
-  1: cd my-app
-  2: npm install
-  3: git init && git add -A && git commit -m "Initial commit" (optional)
-  4: npm run dev -- --open
-
-To close the dev server, hit Ctrl-C
-
-Stuck? Visit us at https://svelte.dev/chat
-```
-
-Don't bother to update the npm version.
-
-```code
-npm notice 
-npm notice New major version of npm available! 9.6.7 -> 10.2.0
-npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.2.0
-npm notice Run npm install -g npm@10.2.0 to update!
-npm notice 
-```
-
-> cd my-app
-
-Install the dependancies currently in package.json
-
-> npm install
-
-This takes a while.
-
-```code
-12 packages are looking for funding
-  run `npm fund` for details
-
-3 low severity vulnerabilities
-
-To address all issues (including breaking changes), run:
-  npm audit fix --force
-
-Run `npm audit` for details.
-```
-Svelte has onlyrecently moved to version 4 and has gone up in version to 4.2.1 so adjust my-app/package.json to use the latest version.
+Next, configure the network.Use Huawei Cloud's default IP address
 
 ```json
 	"devDependencies": {
